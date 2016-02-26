@@ -7,5 +7,7 @@ Import-Package: \
 	org.osgi.framework;version="[1.7,2)",\
 	*
 
-Private-Package: \
-	com.liferay.mvc
+
+Export-Package: \
+	com.liferay.mvc,\
+	com.liferay.mvc.annotation
